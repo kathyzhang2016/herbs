@@ -1,0 +1,247 @@
+@font-face {
+    font-family: 'mfn-icons';
+    src: url(fonts/mfn-icons.woff) format("woff");
+    font-weight: 400;
+    font-style: normal;
+}
+body, ul.timeline_items, .icon_box a .desc, .icon_box a:hover .desc, .feature_list ul li a, .list_item a, .list_item a:hover, .widget_recent_entries ul li a, .flat_box a, .flat_box a:hover, .story_box .desc, .content_slider.carouselul li a .title, .content_slider.flat.description ul li .desc, .content_slider.flat.description ul li a .desc, .post-nav.minimal a i {
+    color: #6b7a6b;
+}
+
+@media only screen and (max-width: 1366px) and (min-width: 1366px) {
+
+    .topBar_left {
+        width: 1259px;
+    }
+}
+
+
+.hover_color:hover .hover_color_bg, .hover_color.hover .hover_color_bg {
+    background-color: inherit !important;
+    border-color: inherit !important
+}
+
+h5 {
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+h5, h6 {
+    font-family: "Lato", Arial, Tahoma, sans-serif;
+}
+
+h5, h5 a, h5 a:hover {
+    color: #6b7a6b;
+}
+
+h5, h2, h3, h4 {
+    margin-bottom: 15px;
+}
+
+hr .noline {
+    height: 0;
+}
+
+hr {
+    border: none;
+    outline: none;
+}
+
+h2 {
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+h1, h2, h3, h4, .text-logo #logo {
+    font-family: "Caudex", Arial, Tahoma, sans-serif;
+}
+
+h2, h2 a, h2 a:hover {
+    color: #1c4e2a;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+h4 {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+h4, h4 a, h4 a:hover, .style-simple .sliding_box .desc_wrapper h4 {
+    color: #1c4e2a;
+}
+
+a,a:visited,a:focus {
+    text-decoration: none;
+    outline: 0;
+}
+
+.hover_color a{
+    display: block;
+}
+.hover_color a:hover {
+    /*text-decoration: none*/
+}
+
+
+.hover_color{height:100%}
+
+.hover_color_bg {
+    border: 2px solid transparent;
+    height: 100%;
+}
+
+.hover_color_bg .hover_color_wrapper {
+    text-decoration: none;
+    padding: 40px 30px;
+    text-align: center
+}
+
+
+hr.no_line {
+    height: 0;
+}
+
+.one-third.mcb-wrap{
+    width: 33.333%;
+}
+
+.column-margin-30px.column {
+    margin-bottom: 30px !important;
+}
+.one.column{
+    width: 98%;
+}
+
+.button_align.align_center {
+    text-align: center
+}
+
+.column_button .button {
+    margin: 0!important;
+    vertical-align: middle;
+}
+a.button, a.tp-button {
+    background-color: #e8ede6;
+    color: #1c4e2a;
+    display: inline-block;
+}
+
+.button-flat a.button .button_icon{background:none;}
+
+a.button.button_right .button_icon,a.tp-button.button_right .button_icon {
+    float: right;
+}
+
+a.button .button_icon {
+    display: block;
+    padding: 11px 13px;
+}
+a.button .button_label{
+    display:block;
+    float: left;
+    position: relative;
+    padding: 11px 0 11px 20px;
+}
+.content_slider{
+    padding: 0 140px 42px;
+    position: relative;
+}
+
+.content_slider ul li {
+    display: block;
+    float: left;
+}
+
+.icon-left-open-big:before{
+    content:'\e8b8';
+}
+.content_slider a.slider_prev,.content_slider a.slider_next {
+    position: absolute;
+    top: 50%;
+    margin: -43px 0 0;
+}
+.content_slider a.slider_prev {
+    left: 50px;
+}
+a.slider_next{
+    right: 50px;
+}
+.icon-right-open-big:before{
+    content: '\e916';
+}
+
+a.button{
+    background-color: #e8ede6;
+    color: #1c4e2a;
+}
+
+.content_slider .slider_pagination {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align:center;
+    line-height:0;
+}
+
+.slider_pagination a {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    text-indent: -9999px;
+    margin: 0 9px;
+    background: rgba(0, 0, 0, .15);
+    -webkit-border-radius: 100%;
+    border-radius: 100%;
+    position: relative;
+}
+
+.slider_pagination a:hover {
+    background: rgba(0, 0, 0, .25);
+}
+h3{
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 400;
+    letter-spacing: 0px;
+}
+
+h3, h3 a, h3 a:hover {
+    color: #1c4e2a;
+}
+.icon-book-open:before{
+    content:'\e81d';
+}
+
+a.button:not(.action_button) {
+    background-image: none;
+    border-width: 0;
+    border-style: solid;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    -webkit-box-shadow: inset 0 0 0 0;
+    box-shadow: inset 0 0 0 0;
+    -webkit-appearance: none;
+}
+
+.button-flat a.button .button_icon {
+    background: none
+}
+
+a.button_theme{
+    background-color: #cb9734;
+    color: #fff;
+}
+
+.icon-cart:before {
+    content: '\e82d';
+}
