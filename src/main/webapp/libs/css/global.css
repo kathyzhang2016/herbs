@@ -1,0 +1,123 @@
+/*设置全局统一的样式*/
+
+.aligncenter {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+
+.testimonials_slider .slider_images {
+    width: 100%;
+    height: auto;
+    line-height: 0;
+    text-align: center;
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 2;
+
+}
+
+.testimonials_slider .testimonials_slider_ul li {
+    float: left;
+    width: 100%;
+    padding: 0 80px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.testimonials_slider a.slider_prev {
+    position: absolute;
+    left: 0;
+    top: 140px;
+    margin: 0;
+}
+
+.testimonials_slider a.slider_next {
+    position: absolute;
+    right: 0;
+    top: 140px;
+    margin: 0;
+}
+
+/*修改当前图片的透明度为1*/
+.testimonials_slider .slider_images a.selected,.testimonials_slider .slider_images a:hover {
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+
+.style-simple .testimonials_slider .testimonials_slider_ul li .bq_wrapper {
+    padding-top: 0;
+    padding-bottom: 0;
+    background: none;
+    text-align: center;
+}
+
+/* Blockquote */
+.style-simple blockquote {
+    background: none;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.testimonials_slider .testimonials_slider_ul li .bq_wrapper {
+    background: none;
+    padding: 0 40px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Blockquote */
+blockquote {
+    font-size: 17px;
+    line-height: 31px;
+    font-family: Patua One;
+    display: block;
+    height: auto;
+    margin: 0 0 35px 25px;
+    top: 15px;
+    position: relative;
+    /*background: url(../images/stripes/textline.png) repeat-y;*/
+}
+
+/* Blockquote */
+.style-simple blockquote {
+    background: none;
+    line-height: 25px;
+    font-style: italic;
+}
+
+.style-simple blockquote:after {
+    display: none;
+}
+
+/* Lists */
+ul {
+    list-style: none outside;
+}
+
+.icon-facebook:before {
+    content: '\f30c';
+}
+
+.icon-gplus:before {
+    content: '\f0d5';
+}
+
+.icon-twitter:before {
+    content: '\f309';
+}
+
+.icon-up-open-big:before{
+    content: '\e946';
+}
+
+.container #back_to_top{
+    float :right;
+}
+
+#Footer .footer_copy {
+    background-color: #e1e7de;
+}

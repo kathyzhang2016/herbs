@@ -390,7 +390,15 @@ img.scale-with-grid, #Content img {
     visibility: hidden;
 }
 
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+}
 
+.one-fifth.column {
+    width: 18%;
+}
 
 
 
